@@ -12,16 +12,16 @@ The notebook implements a forward‑curve‑spanning, regime‑aware hedging eng
 #### 🧭 High‑level description of the modeling framework, assumptions, and intended use cases.
 
 #### 01. Configuration
-#### ⚙️ Centralized configuration for calendar settings, tenor universe, scenario parameters, and risk metrics.
+#### ⚙️ Centralized configuration for calendar settings, curve universe, scenario parameters, and risk metrics.
 
 #### 02. Data Layer
 #### 🗄️ Adapters for CSV/database ingestion plus a synthetic curve generator with regime‑dependent volatility.
 
-#### 03. Curve & Alignment
-#### 📈 Forward curve construction, normalization, return computation, and hooks for roll logic.
+#### 03. Curve & Tenor Alignment
+#### 📈 Forward curve construction, tenor normalization, return computation, and hooks for roll logic.
 
 #### 04. Portfolio Specification
-#### 📊 Forward curve level exposures (DV01‑like sensitivities) and portfolio return construction.
+#### 📊 Forward‑curve‑spanning exposures (DV01‑style sensitivities) and portfolio return construction.
 
 #### 05. Hedge Instruments
 #### 🔧 Futures, strips, and spread hedges represented as linear exposure vectors across the curve.
