@@ -6,7 +6,7 @@ This project delivers a complete, research‑grounded framework for evaluating h
 
 The notebook implements a forward‑curve‑spanning, regime‑aware hedging engine that supports static and dynamic hedge ratios, scenario‑based stress testing, and tail‑risk evaluation using VaR/CVaR. It is designed for quantitative researchers, energy analysts, and risk teams who require transparent, reproducible analytics for hedging decisions.
 
-#### 📁 Project Alignment
+#### 📁 Project Architecture
 
 #### 00. Overview & Assumptions
 #### 🧭 High‑level description of the modeling framework, assumptions, and intended use cases.
@@ -17,7 +17,7 @@ The notebook implements a forward‑curve‑spanning, regime‑aware hedging eng
 #### 02. Data Layer
 #### 🗄️ Adapters for CSV/database ingestion plus a synthetic curve generator with regime‑dependent volatility.
 
-#### 03. Curve & Tenor Alignment
+#### 03. Curve Alignment
 #### 📈 Forward curve construction, tenor normalization, return computation, and hooks for roll logic.
 
 #### 04. Portfolio Specification
