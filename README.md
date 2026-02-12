@@ -33,6 +33,13 @@ The framework emphasizes time‑varying hedge ratios, regime‑conditional perfo
 - Tail‑risk metrics including CVaR and drawdowns
 - Distributional analysis of hedged vs unhedged P&L
 
+🧩 Key Takeaways
+- Hedge effectiveness in natural gas is highly regime‑dependent, with materially different outcomes in high‑volatility and stressed markets.
+- Dynamic hedge ratios consistently outperform static approaches, particularly during volatility spikes and structural curve shifts.
+- Tenor selection matters: front‑month hedges may reduce variance efficiently, while longer‑dated tenors can offer superior tail‑risk protection.
+- Scenario‑based evaluation reveals vulnerabilities that are invisible under unconditional, full‑sample metrics.
+- A modular, research‑aligned architecture enables transparent validation, extension, and production deployment.
+
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
 
