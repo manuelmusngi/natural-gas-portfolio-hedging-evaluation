@@ -1,45 +1,47 @@
 #### 🌐 Natural Gas Portfolio Hedging Evaluation
 
-Scenario‑Based Analytics Across a Forward‑Curve‑Spanning Natural Gas Portfolio
+A research‑grade analytics framework for evaluating hedge effectiveness in natural gas portfolios using scenario‑based analysis, multi‑tenor futures, and market regime awareness.
+The project is designed to bridge academic hedging theory and production‑ready risk analytics, enabling robust assessment of hedging strategies across volatility regimes, curve structures, and stress scenarios.
 
-This project delivers a complete, research‑grounded framework for evaluating hedge effectiveness in a forward‑curve‑spanning natural gas portfolio. It integrates quantitative finance, energy market structure, and risk analytics into a modular workflow suitable for both exploratory research and production‑grade modeling.
+#### 🔍 Project Overview
+This repository delivers an end‑to‑end Python workflow for quantifying how well futures‑based hedges mitigate risk in natural gas portfolios.
+The framework emphasizes time‑varying hedge ratios, regime‑conditional performance, and tail‑risk protection, reflecting the unique volatility and seasonality of natural gas markets.
 
-The notebook implements a forward‑curve‑spanning, regime‑aware hedging engine that supports static and dynamic hedge ratios, scenario‑based stress testing, and tail‑risk evaluation using VaR/CVaR. It is designed for quantitative researchers, energy analysts, and risk teams who require transparent, reproducible analytics for hedging decisions.
+#### ✨ Highlights
+#### 🧠 Scenario‑Based Hedging Analytics
+Historical, bootstrapped, and user‑defined stress scenarios
 
-#### 📁 Project Architecture
+Explicit evaluation of hedge performance during extreme market events
 
-#### 00. Overview & Assumptions
-#### 🧭 High‑level description of the modeling framework, assumptions, and intended use cases.
+Replay of regime‑specific shocks (e.g., high‑volatility or backwardation periods)
 
-#### 01. Configuration
-#### ⚙️ Centralized configuration for calendar settings, curve universe, scenario parameters, and risk metrics.
+#### 📈 Multi‑Tenor Hedge Evaluation
+Simultaneous analysis of front‑month, seasonal, and calendar futures
 
-#### 02. Data Layer
-#### 🗄️ Adapters for CSV/database ingestion plus a synthetic curve generator with regime‑dependent volatility.
+Tenor‑specific hedge ratios and portfolio‑level combinations
 
-#### 03. Curve Alignment
-#### 📈 Forward curve construction, tenor normalization, return computation, and hooks for roll logic.
+Insight into maturity‑dependent hedge effectiveness
 
-#### 04. Portfolio Specification
-#### 📊 Forward‑curve‑spanning exposures (DV01‑style sensitivities) and portfolio return construction.
+#### 🔄 Market Regime Awareness
+Volatility regimes derived from GARCH‑based estimates
 
-#### 05. Hedge Instruments
-#### 🔧 Futures, strips, and spread hedges represented as linear exposure vectors across the curve.
+Curve regimes based on contango/backwardation dynamics
 
-#### 06. Regime Detection
-#### 🌗 Proxy high/low volatility regimes with extensibility to HMM, MS‑GARCH, or fundamentals‑based regimes.
+Regime‑conditional hedge effectiveness metrics
 
-#### 07. Scenario Engine
-#### 🎲 Historical block bootstrap, regime‑conditioned sampling, and deterministic stress shocks.
+#### ⚙️ Time‑Varying Hedge Ratios
+Static OLS hedge ratios for benchmarking
 
-#### 08. Hedge Optimization
-#### 🧮 Static OLS, rolling OLS, EWMA covariance hedging, and hooks for DCC‑GARCH extensions.
+Dynamic DCC‑GARCH hedge ratios aligned with academic best practices
 
-#### 09. Backtest & Evaluation
-#### 📉 Variance reduction, VaR/CVaR improvements, drawdown metrics, and hedged vs. unhedged performance.
+Direct comparison of static vs adaptive hedging strategies
 
-#### 10. Reporting
-#### 📑 Summary tables, time‑series plots, scenario distributions, and hedge‑weight stability charts.
+#### 📉 Risk‑Focused Performance Metrics
+Variance reduction and classical hedge effectiveness
+
+Tail‑risk metrics including CVaR and drawdowns
+
+Distributional analysis of hedged vs unhedged P&L
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
