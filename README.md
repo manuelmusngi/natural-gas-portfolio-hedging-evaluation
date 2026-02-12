@@ -9,11 +9,9 @@ The framework emphasizes time‑varying hedge ratios, regime‑conditional perfo
 
 #### ✨ Highlights
 #### 🧠 Scenario‑Based Hedging Analytics
-Historical, bootstrapped, and user‑defined stress scenarios
-
-Explicit evaluation of hedge performance during extreme market events
-
-Replay of regime‑specific shocks (e.g., high‑volatility or backwardation periods)
+- Historical, bootstrapped, and user‑defined stress scenarios
+- Explicit evaluation of hedge performance during extreme market events
+- Replay of regime‑specific shocks (e.g., high‑volatility or backwardation periods)
 
 #### 📈 Multi‑Tenor Hedge Evaluation
 Simultaneous analysis of front‑month, seasonal, and calendar futures
