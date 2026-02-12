@@ -1,0 +1,54 @@
+data:
+  spot_file: "ngas_spot.csv"
+  futures_file: "ngas_futures_curve.csv"
+  # cross_assets_file: "cross_assets.csv"   # optional
+
+curve:
+  tenors: ["M1", "M2", "M3", "Q1", "WINTER", "SUMMER", "CAL"]
+  # optional additional spreads (beyond the slope_definition below)
+  spreads:
+    - ["M1", "M3"]
+    - { name: "M1_Q1", front: "M1", back: "Q1" }
+
+returns:
+  method: "log"   # "log" or "simple"
+
+portfolio:
+  base_notional: 1000000.0
+
+regimes:
+  volatility:
+    lookback: 20
+    high_quantile: 0.70
+    labels:
+      low: "LOW_VOL"
+      high: "HIGH_VOL"
+  curve:
+    slope_definition: { front: "M1", back: "M3" }
+    contango_threshold: -0.05
+    backwardation_threshold: 0.05
+    labels:
+      contango: "CONTANGO"
+      backwardation: "BACKWARDATION"
+      flat: "FLAT"
+
+hedging:
+  ols:
+    add_intercept: true
+  rolling:
+    lookback: 60
+    min_obs: 30
+
+scenarios:
+  historical:
+    window: 60
+    step: 10
+  bootstrap:
+    block_size: 10
+    n_paths: 250
+    path_length: 60
+    seed: 123
+
+metrics:
+  cvar_alpha: 0.95
+  periods_per_year: 252
