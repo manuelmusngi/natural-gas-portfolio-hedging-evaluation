@@ -42,7 +42,7 @@ The framework emphasizes time‑varying hedge ratios, regime‑conditional perfo
 
 #### 🧩 Project Architecture
 
-ngas-portfolio-hedging/
+ngas-portfolio-hedging/\
 ├─ data/\
 │  ├─ raw/\
 │  │  ├─ ngas_spot.csv\
