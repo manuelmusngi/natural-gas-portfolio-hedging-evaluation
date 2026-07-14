@@ -59,7 +59,7 @@ ngas-portfolio-hedging/\
 │  ├─ [features.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/features.py)         # returns, curve slopes, spreads\
 │  ├─ [regimes.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/regimes.py)           # volatility & curve-shape regimes\
 │  ├─ [hedging.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/hedging.py)           # hedge ratios, portfolio P&L\
-│  ├─ scenarios.py                  # scenario generation & application\
+│  ├─ [scenarios.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/scenarios.py)       # scenario generation & application\
 │  ├─ metrics.py                    # variance, CVaR, HE, etc.\
 │  └─ plotting.py                   # diagnostic and reporting charts\
 ├─ notebooks/\
