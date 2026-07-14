@@ -66,7 +66,7 @@ ngas-portfolio-hedging/\
 │  └─ 01_ngas_portfolio_hedging_evaluation.ipynb\
 ├─ docs/\
 │  └─ README.md\
-└─ requirements.txt\
+└─ requirements.txt
 
 
 #### License
