@@ -65,7 +65,7 @@ ngas-portfolio-hedging/\
 ├─ notebooks/\
 │  └─ 01_ngas_portfolio_hedging_evaluation.ipynb\
 ├─ docs/\
-│  └─ README.md\
+│  └─ [README.md](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/README.md)\
 └─ [requirements.txt](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/requirements.txt)
 
 
