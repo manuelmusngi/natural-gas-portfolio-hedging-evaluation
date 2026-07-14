@@ -48,7 +48,7 @@ ngas-portfolio-hedging/\
 │  │  ├─ ngas_spot.csv\
 │  │  ├─ ngas_futures_curve.csv\
 │  │  └─ cross_assets.csv          # optional: crude, power, etc.\
-│  └─ processed/
+│  └─ processed/\
 │     └─ ngas_merged.parquet\
 ├─ config/\
 │  └─ config.yaml                   # tenors, regimes, scenario settings\
