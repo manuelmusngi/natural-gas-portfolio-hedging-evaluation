@@ -54,7 +54,7 @@ ngas-portfolio-hedging/\
 │  └─ [config.yaml](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/config/config.yaml)      # tenors, regimes, scenario settings\
 ├─ src/\
 │  ├─ [__init__.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/__init__.py)\
-│  ├─ config_loader.py\
+│  ├─ [config_loader.py](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation/blob/main/src/config_loader.py)\
 │  ├─ data_loader.py\
 │  ├─ features.py                   # returns, curve slopes, spreads\
 │  ├─ regimes.py                    # volatility & curve-shape regimes\
