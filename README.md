@@ -1,7 +1,5 @@
 #### 🌐 Natural Gas Portfolio Hedging Evaluation
 
-# Natural Gas Portfolio Hedging Evaluation
-
 [![Repo](https://img.shields.io/badge/project-NG%20portfolio%20hedging-blue)](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation)
 [![Domain](https://img.shields.io/badge/domain-energy%20markets-darkred)](#)
 [![Focus](https://img.shields.io/badge/focus-natural%20gas%20hedging-yellow)](#)
