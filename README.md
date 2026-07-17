@@ -1,5 +1,19 @@
 #### 🌐 Natural Gas Portfolio Hedging Evaluation
 
+# Natural Gas Portfolio Hedging Evaluation
+
+[![Repo](https://img.shields.io/badge/project-NG%20portfolio%20hedging-blue)](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation)
+[![Language](https://img.shields.io/badge/python-3.11+-brightgreen)](#)
+[![Status](https://img.shields.io/badge/status-active-success)](#)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](#)
+[![Notebooks](https://img.shields.io/badge/notebooks-Jupyter-orange)](#)
+[![Domain](https://img.shields.io/badge/domain-energy%20markets-darkred)](#)
+[![Focus](https://img.shields.io/badge/focus-natural%20gas%20hedging-yellow)](#)
+[![Methods](https://img.shields.io/badge/methods-quantitative%20modeling-purple)](#)
+[![Tests](https://img.shields.io/badge/tests-unit%20tests-informational)](#)
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blueviolet)](#)
+
+
 This project is an exercise in development of a research‑grade analytics framework for evaluating hedge effectiveness in natural gas portfolios using scenario‑based analysis, multi‑tenor futures, and market regime awareness.
 The project is designed to bridge academic hedging theory and production‑ready risk analytics, enabling robust assessment of hedging strategies across volatility regimes, curve structures, and stress scenarios.
 
