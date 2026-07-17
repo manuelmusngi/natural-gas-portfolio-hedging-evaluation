@@ -2,9 +2,7 @@
 
 # Natural Gas Portfolio Hedging Evaluation
 
-[![Repo](https://img.shields.io/badge/project-NG%20portfolio%20hedging-blue)](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation)
-[![Language](https://img.shields.io/badge/python-3.11+-brightgreen)](#)
-[![Status](https://img.shields.io/badge/status-active-success)](#)
+[![Repo](https://img.shields.io/badge/project-NG%20portfolio%20hedging-blue)](https://github.com/manuelmusngi/natural-gas-portfolio-hedging-evaluation) 
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](#)
 [![Notebooks](https://img.shields.io/badge/notebooks-Jupyter-orange)](#)
 [![Domain](https://img.shields.io/badge/domain-energy%20markets-darkred)](#)
